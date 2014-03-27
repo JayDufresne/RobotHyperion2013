@@ -72,6 +72,8 @@ public class Robot extends IterativeRobot {
         SmartDashboard.putBoolean("Shooter Deviator:", false);
         // schedule the autonomous command (example)
         // J<aime la lasagne
+        
+        
         if (autonomousCommand1 != null) autonomousCommand1.start();
     }
     /**
